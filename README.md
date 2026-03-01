@@ -1,4 +1,8 @@
-# 🚀 Role-Aware Resume Intelligence Engine
+**Live Demo:** https://resume-intelligence-engine.vercel.app/
+
+---
+
+# Role-Aware Resume Intelligence Engine
 
 A deterministic, role-aware resume evaluation engine built with **Next.js 16 (App Router)** that analyzes resume bullets against real-world job role expectations.
 
@@ -15,7 +19,7 @@ Unlike generic resume checkers, this engine adapts scoring logic based on the se
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Most resume tools:
 
@@ -34,9 +38,9 @@ This project solves that by implementing a **heuristic-driven, deterministic sco
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
-### 1️⃣ Role Configuration Layer
+### Role Configuration Layer
 
 ```
 lib/roles/
@@ -58,7 +62,7 @@ This makes the system modular and easily extensible.
 
 ---
 
-### 2️⃣ Analyzer Engine (Business Logic)
+### Analyzer Engine (Business Logic)
 
 Location:
 
@@ -79,7 +83,7 @@ The scoring is deterministic and explainable.
 
 ---
 
-### 3️⃣ API Layer
+### API Layer
 
 Location:
 
@@ -97,7 +101,7 @@ Backend validation ensures data integrity and security.
 
 ---
 
-### 4️⃣ Frontend Layer (Next.js App Router)
+### Frontend Layer (Next.js App Router)
 
 Location:
 
@@ -115,7 +119,7 @@ Features:
 
 ---
 
-## 📊 Scoring Model
+## Scoring Model
 
 Total Score: **/10**
 
@@ -134,7 +138,7 @@ This weighted system reflects hiring priorities:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Next.js 16 (App Router)
 - React
@@ -154,7 +158,7 @@ This ensures:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 ai-text-insight/
@@ -180,7 +184,7 @@ ai-text-insight/
 
 ---
 
-## 🚀 Running Locally
+## Running Locally
 
 ```bash
 npm install
@@ -195,7 +199,7 @@ http://localhost:3000
 
 ---
 
-## 📈 Example Output
+## Example Output
 
 The engine provides:
 
@@ -212,7 +216,7 @@ The engine provides:
 
 ---
 
-## 🧩 Extending The System
+## Extending The System
 
 To add a new role:
 
@@ -224,7 +228,7 @@ No change required in core scoring logic.
 
 ---
 
-## ⚠ Limitations
+## Limitations
 
 - Rule-based detection (no NLP parsing)
 - Exact keyword matching
@@ -233,7 +237,7 @@ No change required in core scoring logic.
 
 ---
 
-## 🔮 Possible Future Improvements
+## Possible Future Improvements
 
 - Semantic embedding matching
 - Resume STAR-format detection
@@ -243,7 +247,7 @@ No change required in core scoring logic.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Karnan G**  
 “Code like a scientist, debug like a detective, and deploy like a boss.” 
